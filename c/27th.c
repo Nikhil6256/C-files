@@ -5,9 +5,9 @@ int main(){
     printf("Enter number : ");
     scanf("%d",&n);
     int sum = 0;
-    for(int j=n;j>=1;j--){
-        sum += j;
-        printf("%d\n", j);
+    for(int i=n;i>=1;i--){               //in reverse sum is equal to sum
+        sum += i;                        //e.g 1+2+3=3+2+1
+        printf("%d\n",i);
     }
     printf("sum is %d\n",sum);
     return 0;
